@@ -7,18 +7,18 @@ import Tailwind from '../assets/tailwind.png'
 import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import C from '../assets/c.png'
-import Trello from '../assets/trello.png'
 import Git from '../assets/git.png'
 import Java from '../assets/java.png'
+import Trello from '../assets/trello.png'
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+        <div name='skills' className='w-full h-screen bg-[#0a192f] p-8 pt-14 text-gray-300'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-red-600 '>Skills</p>
-                    <p className='py-4'> // These are the technologies I've worked with</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-yellow-600 '>Skills</p>
+                    <p className='py-4'> <b> Estas son las tecnologías con las que he trabajado: </b> </p>
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>

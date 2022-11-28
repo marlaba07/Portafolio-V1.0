@@ -87,26 +87,26 @@ const Navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="/">
+                            href="https://www.linkedin.com/in/marianolabatut/" target='blank'>
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="/">
+                            href="https://github.com/marlaba07" target='blank'>
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#04755d]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="/">
+                            href="mailto:marianolabatut@gmail.com"  >
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#454f69]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="/">
-                            Resume <BsFillPersonLinesFill size={30} />
+                            href="https://drive.google.com/file/d/1neAYA2DQxcNOO4Wllns-wlnYhZLqO62U/view?usp=sharing" download="Mariano Labatut CV.pdf" target='blank'>
+                            CV <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>
