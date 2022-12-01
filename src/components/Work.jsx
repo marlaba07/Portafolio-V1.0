@@ -9,7 +9,7 @@ const Work = () => {
         <div name='work' className='w-full md:h-screen lg:h-[900px] bg-[#0a192f] sm:bg-[#09244d] p-6 pt-14 text-gray-300 '>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl 2xl:text-5xl font-bold inline border-b-4 text-gray-300 border-yellow-600 '>Work</p>
+                    <p className='text-3xl 2xl:text-5xl md:text-[35px] font-bold inline border-b-4 text-gray-300 border-yellow-600 '>Work</p>
                     <p className='py-6 2xl:text-2xl md:text-2xl'> Mira algunos de mis trabajos recientes: </p>
                 </div>
                 {/* Container */}
@@ -130,9 +130,6 @@ const Work = () => {
                     </div> */}
 
                 </div>
-
-
-
             </div>
         </div>
     )
