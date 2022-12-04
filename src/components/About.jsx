@@ -18,7 +18,7 @@ const About = () => {
                         <p> Un gusto conocerte </p>
                     </div>
                     <div>
-                        <p className='2xl:text-2xl md:text-2xl'>
+                        <p className='2xl:text-2xl md:text-2xl text-[#8892b0] 2xl:text-gray-300 lg:text-gray-300 md:text-gray-300 '>
                             Me considero un entusiasta y apasionado de la tecnología.
                             Quiero aprender y desarrollar mis habilidades en el campo de IT, adquirir experiencia y dedicarme a ello.
                             Estoy dando mis primeros pasos como desarrollador,

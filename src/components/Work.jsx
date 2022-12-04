@@ -45,7 +45,7 @@ const Work = () => {
                                 {/* <a href="https://presupuesto-app-udemy.netlify.app/" target='blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a> */}
-                                <a href="https://github.com/marlaba07/presupuesto-app">
+                                <a href="https://github.com/marlaba07/presupuesto-app" target='blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -64,7 +64,7 @@ const Work = () => {
                                 {/* <a href="">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Demo</button>
                                 </a> */}
-                                <a href="https://github.com/marlaba07/Portafolio">
+                                <a href="https://github.com/marlaba07/Portafolio" target='blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Code</button>
                                 </a>
                             </div>
@@ -130,8 +130,8 @@ const Work = () => {
                     </div> */}
 
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 
