@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/logo.png'
@@ -12,7 +12,9 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
-                <img src={Logo} alt="Logo Image" style={{ width: '90px' }} />
+                <Link to="home" smooth={true} duration={500} >
+                    <img className='cursor-pointer' src={Logo} alt="Logo Image" style={{ width: '90px' }} />
+                </Link>
             </div>
 
             {/* menú */}
@@ -83,30 +85,30 @@ const Navbar = () => {
 
 
             {/* social icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden md:hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
+                    <li className='2xl:w-[160px] 2xl:h-[60px] lg:w-[150px] lg:h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
                         <a className='flex justify-between items-center w-full text-gray-300'
                             href="https://www.linkedin.com/in/marianolabatut/" target='blank'>
-                            Linkedin <FaLinkedin size={30} />
+                            Linkedin <FaLinkedin size={25} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                    <li className='2xl:w-[160px] 2xl:h-[60px] lg:w-[150px] lg:h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
                             href="https://github.com/marlaba07" target='blank'>
-                            GitHub <FaGithub size={30} />
+                            GitHub <FaGithub size={25} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#04755d]'>
+                    <li className='2xl:w-[160px] 2xl:h-[60px] lg:w-[150px] lg:h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#04755d]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
                             href="mailto:marianolabatut@gmail.com"  >
-                            Email <HiOutlineMail size={30} />
+                            Email <HiOutlineMail size={25} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#454f69]'>
+                    <li className='2xl:w-[160px] 2xl:h-[60px] lg:w-[150px] lg:h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#454f69]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
                             href="https://drive.google.com/file/d/1neAYA2DQxcNOO4Wllns-wlnYhZLqO62U/view?usp=sharing" download="Mariano Labatut CV.pdf" target='blank'>
-                            CV <BsFillPersonLinesFill size={30} />
+                            CV <BsFillPersonLinesFill size={25} />
                         </a>
                     </li>
                 </ul>
